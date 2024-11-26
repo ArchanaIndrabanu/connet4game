@@ -1,24 +1,34 @@
 Connect Four Game
-This repository contains the implementation of the classic Connect Four game using Python and Pygame. The game allows a human player to play against an AI opponent with an algorithm based on the Minimax method with alpha-beta pruning.
+Welcome to the Connect Four Game repository! This project is a Python implementation of the classic Connect Four game, featuring a human player against an AI opponent.
 
 Features
-Human vs AI gameplay
-AI opponent uses Minimax algorithm with alpha-beta pruning for intelligent moves
-Game board visualized using Pygame
-Real-time graphical user interface
+Human vs AI Gameplay: Challenge a computer opponent in a strategic battle.
+Intelligent AI: The AI uses the Minimax algorithm with alpha-beta pruning to make smart moves.
+Visual Interface: Enjoy the game with a real-time graphical interface powered by Pygame.
 Requirements
-To run this game, you need to have the following installed:
+Make sure you have the following installed to run the game:
+
 Python 3.x
 Pygame
 NumPy
 Installation
 Clone the repository:
+
 git clone https://github.com/yourusername/connect-four-game.git
 cd connect-four-game
 Install the required packages:
-pip install pygame numpy
 
+pip install pygame numpy
 How to Play
 Run the game:
 
-python connect_four.py
+python app.py
+Gameplay Instructions
+The game board will appear on your screen.
+Player 1 (Red) starts the game and makes the first move by clicking on a column.
+The AI (Yellow) will then make its move.
+The game continues until a player connects four pieces in a row, column, or diagonal, or the board is full.
+Enjoy the Game!
+Dive into the classic Connect Four experience with a modern twist. Happy playing!
+
+Feel free to customize the content and styling further to match your preferences.
